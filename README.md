@@ -16,7 +16,9 @@ This project represents the **mobile version** of the Taste of Ceylon system and
 ---
 
 ## 🛠️ Technologies Used
+
 - **Java / Kotlin** (depending on your implementation)
+- **Figma**
 - **Android Studio**
 - **XML** for UI design
 - Android SDK
@@ -35,15 +37,6 @@ This project represents the **mobile version** of the Taste of Ceylon system and
 - Order management
 - API-based product loading
 - Firebase or MongoDB support
-
 ---
 
-## 👨‍💻 Developer
-**Sahan Wishwa**  
-Associate Software Engineer (Undergraduate)
-
----
-
-## 📄 License
-This project is for **educational purposes**.
 
