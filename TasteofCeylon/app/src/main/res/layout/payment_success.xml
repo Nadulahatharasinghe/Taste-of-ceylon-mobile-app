@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg_green"
+    android:padding="20dp">
+
+    <!-- Success Icon -->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@android:drawable/checkbox_on_background"
+        android:layout_marginBottom="20dp"
+        app:tint="@color/primary_color" />
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Successful!"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_color"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for your payment.\nYour order has been confirmed."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Transaction ID -->
+    <TextView
+        android:id="@+id/txtTransactionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transaction ID: #123456789"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Back to Home Button -->
+    <Button
+        android:id="@+id/btnBackHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- View Order Button -->
+    <Button
+        android:id="@+id/btnViewOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Order Details"
+        android:backgroundTint="@color/accent_color"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+</LinearLayout>

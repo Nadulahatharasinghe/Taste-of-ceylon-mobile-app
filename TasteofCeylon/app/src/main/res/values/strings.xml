@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Taste of Ceylon</string>
+    <string name="main_products">OUR MAIN PRODUCTS</string>
+    <string name="user_icon">User Icon</string>
+    <string name="cart_icon">Cart Icon</string>
+    <string name="product1">Jackfruit Kos Noodles 400g</string>
+    <string name="product2">Jackfruit Curry 250g</string>
+    <string name="product3">Natural Young Jackfruit in Brine 400g</string>
+    <string name="product4">Organic Jackfruit Juice 370ml</string>
+    <string name="app_logo">App Logo</string>
+    <string name="terms_message">
+        By using our site, you agree to our policies on product use, payments, and returns.
+        Prices and availability may change.
+        Please review our full Terms &amp; Conditions before purchase.
+    </string>
+    <string name="increase">+</string>
+    <string name="decrease">-</string>
+</resources>

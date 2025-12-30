@@ -1,0 +1,7 @@
+<resources>
+    <color name="bg_green">#A8C3A2</color> <!-- 60% background -->
+    <color name="black">#000000</color>
+    <color name="primary_color">#2E7D32</color> <!-- 30% -->
+    <color name="accent_color">#FFD600</color> <!-- 10% -->
+
+</resources>
